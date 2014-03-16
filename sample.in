@@ -1,0 +1,5 @@
+Given resource HOMEBROKER 
+When AvgResponseTime of  resource's priceAlert is equals to 100 
+or its Availabilty is greater than 200 
+or its AvgAvailabilty is greater than 500 
+Then SendEmail("admin@gmail.com", "resolvebronca@gmail.com"), Log(ALL)
